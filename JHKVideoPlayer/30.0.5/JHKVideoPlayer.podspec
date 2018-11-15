@@ -25,7 +25,7 @@ This is a video player control written by Swift, which achieved a highly complet
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'walkerwg' => '907029564@qq.com' }
-  s.source           = { :git => 'https://github.com/walkerwg/Spec.git', :tag => s.version.to_s }
+  s.source           = { :https://github.com/walkerwg/iOS_VideoPlayer_CPN.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.pod_target_xcconfig = {
       'SWIFT_VERSION' => '4.1',
