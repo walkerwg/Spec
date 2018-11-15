@@ -39,9 +39,11 @@ This is a video player control written by Swift, which achieved a highly complet
   s.subspec 'AVPlayer' do |ss|
       ss.source_files = 'JHKVideoPlayer/Classes/AVPlayer/*.swift'
       ss.dependency 'JHKVideoPlayer/Category'
+      ss.frameworks = 'UIKit', 'AVFoundation'
   end
   s.subspec 'Category' do |ss|
       ss.source_files = 'JHKVideoPlayer/Classes/Category/*.swift'
+      ss.frameworks = 'UIKit'
   end
 
   #-----------------------文件分级-------------------#
