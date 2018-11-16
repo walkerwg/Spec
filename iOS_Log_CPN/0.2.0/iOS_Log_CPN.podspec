@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iOS_Log_CPN/Classes/**/*'
-  s.public_header_files = 'iOS_Log_CPN/Classes/**/*.{h,m}'
+  #s.source_files = 'iOS_Log_CPN/Classes/**/*'
+  #s.public_header_files = 'iOS_Log_CPN/Classes/**/*.{h,m}'
   s.pod_target_xcconfig = {
       'SWIFT_VERSION' => '4.1',
   }
